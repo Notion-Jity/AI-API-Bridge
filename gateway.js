@@ -31,9 +31,9 @@ const CONFIG = {
   // Kimi      : https://api.moonshot.cn/v1                model: moonshot-v1-8k
   // 通义      : https://dashscope.aliyuncs.com/compatible-mode/v1  model: qwen-plus
   // OpenAI    : https://api.openai.com/v1                 model: gpt-4o
-  upstreamBase: 'http://127.0.0.1:8080/v1',   // 智谱官方
-  upstreamKey:  'pwd',
-  upstreamModel:'gpt-6.1-sol-high',              // 智谱模型名
+  upstreamBase: 'http://127.0.0.1:8080/v1',   // 使用的api url
+  upstreamKey:  'pwd',							//上游API-KEY
+  upstreamModel:'gpt-6.1-sol-high',              // 模型名
 
   /* --- 监听 --- */
   listenPort: 8090,
